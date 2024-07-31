@@ -2,32 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+  background-color: #f8f7f4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.searchBar {
+  padding-left: 300px;
+
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navbackground {
+  background: #f8f7f4;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.list {
+  background: #f8f7f4;
+}
+
+.nav-sec1{
+  margin-left: 38rem;
+  margin-top: 5rem;
+  
+}
+.sec2{
+  width: 33rem;
+  margin-left: 32rem;
+  
+}
+
+.sec3 {
+  padding-top: -20px;
+  width: 42rem;
+  margin-left: 28rem;
+
+}
+.card{
+  background-color: #f8f7f4;
+}
+
+.sec4{
+  
+  width: 7rem;
+  height: 3rem;
+  
+  background-color: black;
+   margin-left: 46rem;
+   
 }
